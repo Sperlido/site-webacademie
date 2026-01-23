@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name ="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name ="description" content="Site de vente de livres d'occasion et éco-responsables">
+        <meta name ="keywords" content="livres, occasion, éco-responsable, écologique, durable, revente, achat, librairie, seconde main">
+        <meta name ="author" content="Simon Sperandio">
+        <link rel="stylesheet" href="styles/style.css">
+        <link rel="icon" type="image/png" href="images/favicon.png">
+        <title>EcoBook</title>
+    </head>
+    <body>
+    <header>
+        <nav>
+        <a href="index.html"> <img src="images/favicon.png" alt="Logo du Site"></a>
+        <h1>EcoBook</h1>
+        <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="a-propos.html">À propos</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="contacts.html">Nous contacter</a></li>
+        </ul>
+        </nav>
+        </header>
+        <main>
+            <h1>Contactez-nous !</h1>
+            <p>Bienvenue sur la page de contact !</p>
+            <p>Si vous avez des questions, des suggestions ou si vous souhaitez simplement discuter de notre passion commune pour les livres éco-responsables, n'hésitez pas à nous contacter. Nous sommes là pour vous aider !</p>
+            <form class="form-contact">
+                <fieldset>
+                    <legend>Formulaire de contact</legend>
+                <label for="nom">Nom :</label>
+                <input type="text" id="nom" name="nom" placeholder="Dupont" required>
+                <label for="email">Email :</label>
+                <input type="email" id="email" name="email" placeholder="jeandupont@example.com" required>
+                <label for="theme-message">Quel est le thème de votre message ?</label>
+                <select name="theme" id="theme-message" required>
+                    <option value="" disabled selected>Choisissez un thème</option>
+                    <hr>
+                    <option value="question">Question</option>
+                    <option value="suggestion">Suggestion</option>
+                    <option value="partenariat">Partenariat</option>
+                    <option value="autre">Autre</option>
+                </select>
+                <label for="message">Message :</label>
+                <textarea name="message" id="message" required placeholder="Ton message..."></textarea>
+                <input type="submit">
+                </fieldset>
+            </form>
+            <section class="map">
+  <h2>Nous trouver</h2>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1504.591401383005!2d3.0561102966405747!3d50.638057102877085!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c2d58df9699c31%3A0xd3266622bd1cbf6e!2s%C3%89cole%20informatique%20Lille%20-%20Epitech!5e0!3m2!1sfr!2sfr!4v1769193390340!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</section>
+        </main>
+        <footer>
+            <p>&copy; 2025 EcoBook. Tous droits réservés.</p>
+            <ul>
+                <li><a href="mentions-legales.html">Mentions légales</a></li>
+                <li><a href="politique-confidentialite.html">Politique de confidentialité</a></li>
+                <li><a href="conditions-utilisation.html">Conditions d'utilisation</a></li>
+            </ul>
+        </footer>
+    </body>
+</html>
