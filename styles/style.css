@@ -1,0 +1,12 @@
+html {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+.lien-bouton {
+    text-decoration: none;
+    color: white;
+    background-color: darkgreen;
+    padding: 5px 10px; 
+    border-radius: 25px;
+    font-weight: bold;
+}
