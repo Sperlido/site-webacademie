@@ -1,0 +1,14 @@
+VERTS :
+vert 1 : #A8D32A
+vert 2 : #93BF00
+vert 3 : #81A713
+
+MARRONS :
+marron 1 : #725D57
+marron 2 : #68544F
+marron 3 : #53433F
+marron 4 : #3E322E
+
+BEIGES :
+beige 1 : #FFCEBF
+beige 2 : #FFBFAB
