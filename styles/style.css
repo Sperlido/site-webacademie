@@ -6,25 +6,27 @@ html {
 
 .lien-bouton {
     text-decoration: none;
-    color: #A8D32A;
-    background-color: #53433F;
+    color: black;
+    background-color: #93BF00;
     padding: 5px 10px; 
     border-radius: 25px;
     font-weight: bold;
     transition: 0.5s;
-    text-shadow: 1px 1px 1px black
+    box-shadow: 1.5px 1.5px 5px black;
+    border: solid 1px black;
 }
 .lien-bouton:hover {
-    color: #93BF00;
-    background-color: #725D57;
+    color: black;
+    background-color: #A8D32A;
     transition: 0.8s;
+    box-shadow: 3px 3px 10px black;
 }
 
 #container-1 {
     position: relative;
     background-image: url(../images/Illustration1.jpg);
     background-size: cover;
-    background-position:0% 45%;;
+    background-position:0% 45%;
     background-repeat: no-repeat;
     padding: 40px;
     display: flex;
@@ -34,6 +36,7 @@ html {
     text-align: center;
     height: 400px;
     border-radius: 50px;
+    font-size: 23px;
 }
 
 #container-1::before {
@@ -43,7 +46,7 @@ html {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(255, 255, 255, 0.493);
+  background-color: rgba(255, 255, 255, 0.575);
 }
 
 #container-1 > * {
@@ -52,11 +55,37 @@ html {
 }
 
 #container-1 p {
-    max-width: 500px;
+    max-width: 1000px
 }
 
 #container-1 h2,
 #container-1 h3,
 #container-1 p {
-    text-shadow: 0 3px 6px rgba(0, 0, 0, 0.25);
+    text-shadow: 1px 1px 5px rgba(255, 255, 255, 0.596);
+}
+
+#container-2 {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  text-align: left;
+  margin: 150px 0;
+}
+
+#text-2 {
+    display: flex;
+    flex-direction: column;
+    font-size: 23px;
+}
+
+#text-2 a {
+    margin-top: auto;
+    width: fit-content;
+}
+
+#container-2 img {
+    border-radius: 50px;
+    order: 2;
+    width: 500px;
+    height: 500px;
 }
