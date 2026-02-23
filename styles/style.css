@@ -297,12 +297,57 @@ footer p {
     color: white;
 }
 
+#about-container {
+    position: relative;
+    text-shadow: 1px 3px 8px black;
+    background-image: url(../images/Illustration10.png);
+    background-size: cover;
+    background-position:0% 45%;
+    background-repeat: no-repeat;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 700x;
+    border-radius: 50px;
+    font-size: 23px;
+}
+
+#about-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.529);
+  border-radius: 50px;
+}
+
+#about-container > * {
+  position: relative;
+  z-index: 1;
+}
+
+#about-container p {
+    max-width: 1000px
+}
+
+#about-container h2,
+#about-container h3,
+#about-container p {
+   color: white;
+}
+
 .team-container {
     display: flex;
     justify-content: space-around;
     justify-content: space-between;
     max-width: 100%;
     gap: 30px;
+    text-align: center;
 }
 
 .team-container img {
@@ -311,3 +356,52 @@ footer p {
     border-radius: 100%;
     object-fit: cover;
 }
+
+#team-title {
+    text-align: center;
+    margin-bottom: 90px;
+}
+
+#team-1 {
+    object-position: 0% 1%;
+
+}
+
+.sujets-blog {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+
+.sujets-blog a {
+    text-decoration: none;
+    color: black;
+}
+
+.cartes-blog {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 1.5px 1.5px 5px black;
+    transition: 0.3s;
+    border-radius: 25px;
+    margin: 20px;
+    padding: 20px;
+    text-align: center; 
+}
+
+.cartes-blog img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 20px;
+    margin: 15px 0;
+    image-resolution: 16/9;
+    object-position: 0% 55%;
+    box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.541);
+}
+
+.cartes-blog:hover {
+    box-shadow: 3px 3px 10px black;
+    transition: 0.3s;
+}   
