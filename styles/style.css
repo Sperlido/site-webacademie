@@ -418,4 +418,40 @@ footer p {
 
 .article-blog h1 {
     text-align: center;
+    font-size: 40px;
 }
+
+.article-blog {
+    font-size: 20px;
+}
+
+.commentaires {
+    display: flex;
+    flex-direction: column;
+}
+
+.commentaires header {
+    display: flex;
+    flex-direction: column;
+}
+
+.commentaires time {
+    font-size: 12px;
+}
+
+.commentaires p {
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+
+.auteur-com {
+    color: #eb5025;
+    font-weight: bold;
+}
+
+.form-commentaire {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+}  
