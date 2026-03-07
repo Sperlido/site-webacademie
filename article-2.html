@@ -25,7 +25,7 @@
         </nav>
         </header>
         <main>
-            <article>
+            <article class="article-blog">
                 <h1>Les auteurs engagés pour l'écologie : des plumes au service de la planète</h1>
                 <time datetime="2026-01-22">22 janvier 2026</time>
                 <br>
@@ -45,10 +45,18 @@
                 <p>Les auteurs engagés pour l'écologie ne se contentent pas d'écrire ; ils catalysent des transformations profondes. De Rachel Carson à Naomi Klein, en passant par Pierre Rabhi, leurs contributions littéraires forment un pont entre connaissance et action, essentiel pour affronter les défis climatiques. En promouvant ces voix, nous contribuons collectivement à un monde plus équilibré et respectueux de l'environnement.</p>
                 <h2>Agissez maintenant avec EcoBook</h2>
                 <p>Vous souhaitez découvrir ces auteurs inspirants et soutenir l'écologie ? Rendez-vous sur EcoBook pour acheter des livres d'occasion de ces plumes engagées. Chaque achat seconde main réduit l'empreinte carbone et finance des initiatives environnementales. Explorez notre collection et rejoignez le mouvement pour une planète plus verte !</p>
-                <a href="shop.html">Shop</a>
-                <a href="contacts.html">Nous contacter</a>
+                <a href="shop.html" class="lien-bouton">Shop</a>
+                <a href="contacts.html" class="lien-bouton">Nous contacter</a>
             </article>
         </main>
+        <form class="form-commentaire">
+                <h3>Laisse un com !</h3>
+                <label for="nom">Nom :</label>
+                <input type="text" id="nom" name="nom" placeholder="Dupont" required>
+                <label for="message">Commentaire :</label>
+                <textarea name="message" id="message" placeholder="Ton commentaire" required></textarea>
+                <button type="submit">Envoyer</button>
+            </form>
         <section class="commentaires">
             <h2>Commentaires</h2>
             <article class="commentaire">
@@ -72,16 +80,9 @@
                 </header>
                 <p>Pas convaincu... Les livres ne suffisent pas à sauver la planète #réveillezvoustoi</p>
             </article>
-            <form class="form-commentaire">
-                <h3>Laisse un com !</h3>
-                <label for="nom">Nom :</label>
-                <input type="text" id="nom" name="nom" placeholder="Dupont" required>
-                <label for="message">Commentaire :</label>
-                <textarea name="message" id="message" placeholder="Ton commentaire" required></textarea>
-                <button type="submit">Envoyer</button>
-            </form>
         </section>
         <footer>
+            <hr>
             <p>&copy; 2026 EcoBook. Tous droits réservés.</p>
             <ul>
                 <li><a href="mentions-legales.html">Mentions légales</a></li>

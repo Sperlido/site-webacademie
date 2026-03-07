@@ -406,7 +406,7 @@ footer p {
     transition: 0.3s;
 }   
 
-.intro-article img{
+.article-blog img{
     float: left;
     width: 50%;
     height: 500px;
@@ -428,6 +428,7 @@ footer p {
 .commentaires {
     display: flex;
     flex-direction: column;
+    margin: auto;
 }
 
 .commentaires header {
@@ -449,9 +450,29 @@ footer p {
     font-weight: bold;
 }
 
+.form-commentaire-container {
+    border-radius: 25px;
+    box-shadow: 0px 0px 5px black;
+    transition: 0.2s;
+    margin: 100px auto;
+    width: 700px;
+    overflow: hidden;
+}  
+
+.form-commentaire-container:hover {
+    box-shadow: 0px 0px 10px black;
+    transition: 0.2s;
+}
+
 .form-commentaire {
-    margin-top: 100px;
     display: flex;
     flex-direction: column;
-    width: fit-content;
-}  
+    justify-content:center;
+    padding: 20px;
+    overflow: hidden;
+}
+
+
+.form-commentaire button {
+    margin: 20px auto;
+}
